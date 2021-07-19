@@ -1,0 +1,254 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Amin Sahebi
+title: PhD Student
+email: amin.sahebi@unifi.it
+# email_title: Email (Email title override)
+#phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: www3.diism.unisi.it/~sahebi/index.html
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  AminSahebi
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: amin-sahebi-47370039
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+orcid_username: 0000-0002-6929-4671
+
+# Additional icon links
+additional_links:
+- title: Google Scholar
+  #  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  icon: fab fa-google
+  url: https://scholar.google.com/citations?user=OG1icbkAAAAJ&hl=it&oi=ao
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+
+about_content: | # this will include new lines to allow paragraphs
+        I’m a PhD student, have been admitted to the <bSmart Computing Program</b> on November
+        2018, a joint program between three universities, Firenze, Pisa and Siena in Tuscany region.
+        Currently, I’m working on <b>Reconfigurable Computing</b> and <b>High Performance Computing</b> solutions for
+        Artificial Intelligence Application.
+        <br>
+        <br>
+        <em>Please find my complete Curriculum Vitae (CV) here: <a href="/home/ubuntu/modern-resume-theme/data/Resume_Sep_2019.pdf" download="SAHEBI_CV.txt"><mark>Download</mark></a></em>
+
+#Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#  - Lists
+#  - Tables
+#  - <a href="google.com">Links</a>
+#  - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+  - title: List and Repository of Some Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Distributed Graph Processing
+        link: https://bitbucket.org/AminSahebi/dataflow-runtime/src/master
+        link_text: dataflow thread runtime repository regarding my published paper.
+        quote: >
+        #          description: | # this will include new lines to allow paragraphs
+        #          Description about the work on/with the project
+      - layout: left
+        title: Dataflow-Runtime (DRT)
+        link: https://bitbucket.org/AminSahebi/dataflow-runtime/src/master
+        link_text: Link to the ARCS 21 paper.
+        additional_links:
+          - title:  Link to the repository
+            icon: fab fa-bitbucket
+            url: https://bitbucket.org/AminSahebi/dataflow-runtime/src/master
+        quote: >
+                This repository contains the DRT (dataflow runtime) A Lightweight Runtime for Developing Benchmarks for a Dataow Execution Modelof the paper in International Conference on Architecture of Computing Systems (ARCS 21) conference.  
+#          description: | # this will include new lines to allow paragraphs
+#          Description about the work on/with the project
+
+      - layout: left
+        title: OmpSs Tutorial
+        additional_links:
+          - title:  Link to the repository
+            icon: fab fa-bitbucket
+            url: https://bitbucket.org/AminSahebi/ompss/src/master/
+        #        link_text: The OmpSs programming language full-guide repository.
+        #        additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          This repository contains a complete tutorial to install and test properly OmpSs on conventional machines with different architectures such as ARM64, x86 and Hetereogenous architecture like
+          zynq ultrascale+ with quad-core arm cortex A53.
+  #        description: | # this will include new lines to allow paragraphs
+  #          Description about the work on/with the project
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: PhD student
+        sub_title: Computer Science
+        location: Tuscany-ITALY
+        caption: November 2018 - Present
+        quote: >
+          Smart Computing is a joint program between three universities, University of <strong><em>Florence</em></strong>, University of <strong><em>Siena</em></strong>, University of <strong><em>Pisa</em></strong>.
+        description: | # this will include new lines to allow paragraphs
+          My researches are mostly focusing on reconfigurable architectures to accelerate performance of
+          computing applications such as Artificial Intelligence real-world applications. I'm contributing in a teamwork
+          group and we have been powered with AXIOM project, which is a part of European Horizon 2020
+          project which already finished. My current tasks are comprising FPGA PL and PS side design (we are
+          working on ZYNQ Ultrascale+ MPSoCs) including HLS-high level synthesized language and VHDL and
+          Linux Embedded Device Driver development to have access our Metrics and Registers from User level
+          side. Moreover, as some case studies, I worked on MAXELER accelerators to design and develop a Data-
+          Flow FFT architecture which at the first step concluded to achieve the Best Paper Award of the IEEE MECO
+          conference June 2019.
+
+      - layout: top-right
+        title: Master of Science
+        sub_title: Digital Electronic
+        location: Mazandaran-IRAN
+        caption: 2011 - 2013
+        description: |
+          Smart Computing is a joint program between three universities
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: MAPNA
+        location: Tehran-IRAN
+        sub_title: EMBEDDED SYSTEMS ENGINEER
+        caption: September 2013 - October 2018
+        link: https://www.mapnagroup.com/en
+#        quote: >
+#          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+         During 5 years working as Embedded System Engineer, my major activities were about Hardware
+         solutions and firmware applications and protocols on real-time operating systems. I contributed to a
+         research and development team with responsibilities to design and developing Main Processing Units
+         (MPU) Firmware applications, operating system and interfaces, with a concentration on C/C++ applications,
+         along with powerful IBM UML Modeling software tools. The environment of programming was almost in
+         Unix-based operating systems such as Linux and QNX OS and almost using POSIX as standard
+         programming API.
+  - title: Publications
+    layout: list
+    content:
+      - layout: top-right
+        sub_title: DRT &colon; A Lightweight Runtime for Developing Benchmarks for a Dataflow Execution Model.
+        location: International Conference on Architecture of Computing Systems (ARCS)
+        caption: June 2021
+        link: htps://TBD
+        description: | # this will include new lines to allow paragraphs
+          <em><mark>Abstract</mark></em> Future computers may take advantage of a dataflow program execution model
+          (PXM) for both performance and energy advantages. One key element to provide a compilation tool-chain
+          for such machines is a framework for developing initial benchmarks. DRT
+          (Dataflow Run-Time) is a tool that enables the fast prototyping of those benchmarks for
+          the Dataflow Threads (DF-Threads) PXM. In this work, we show how to use DRT to
+          develop dataflow based examples to be targeted by a future compiler for the dataflowPXM.
+          DRT has been written in portable C code (tested with the GNU C compiler), and it is
+          open-source, therefore, it can be used on real machines based on architectures like x86,AArch, RISC-V ISA.
+          Here, we discuss some didactic examples, and we show how to study and debug the data
+          exchange, which is flowing through frames that are detached from the data stack. We
+          compare DRT against similar data
+          flow runtime libraries such as DARTS and OCR. Even
+          though our environment is not yet optimized, we found that DRT outperforms the above
+          runtime frameworks in terms of execution time. We also give an evaluation of the time and
+          complexity to develop DF-Threads examples in DRT compared to the approach of using
+          a full system simulator and FPGAs for more accurate modeling.
+      - layout: top-right
+        sub_title: GLUON, The High-Speed Inexpensive and Easy Interconnect Solution.
+        location: HiPEAC International Summer School (ACACES)
+        caption: June 2020
+        link: http://www.dii.unisi.it/~giorgi/papers/Sahebi20-acaces.pdf
+        description: | # this will include new lines to allow paragraphs
+          <em><mark>Abstract</mark></em> Heterogeneous systems are one of the most discussed architectures
+          in computer science. Their capabilities have provided many good features for researchers to use
+          this kind of structure in their state-of-the-art works. Heterogeneous systems are flexible,
+          cost-efficient, and well-supported by communities. They are widely used in artificial intelligence,
+          automotive, IoT, and embedded applications. Moreover, there is also a challenge to have a sufficient,
+          cost-efficient, and flexible structure to use heterogeneous systems. In this work, we present the GLUON board,
+          which is capable of using serial transceivers in Xilinx Ultra-scale+ structure and facilitates using GTH transceivers
+          in high rate data transfer applications, the possible solution would be a high data rate cluster
+          network based on Zynq Ultra-scale+ MPSoCs, which can easily deploy a multi-node, multi-code
+          structure in reasonable cost.
+      - layout: top-right
+        sub_title: A Data-Flow Methodology for Accelerating FFT.
+        location: Mediterranean Conference on Embedded Computing (MECO)
+        caption: June 2019
+        link: https://ieeexplore.ieee.org/abstract/document/8760044
+        description: | # this will include new lines to allow paragraphs
+          <em><mark>Abstract</mark></em> The native implementation of the N-point digital Fourier Transform involves
+          calculating the scalar product of the sample buffer (treated as an N-dimensional vector) with N separate
+          basis vectors. Since each scalar product involves N multiplications and N additions, the total time is
+          proportional to N^2 , in other words, its an O(N^2 ) algorithm. However, it turns out that
+          by cleverly re-arranging these operations, one can optimize the algorithm down to
+          O(Nlog_2 (N)), which for large N makes a huge difference. The optimized version of the
+          algorithm is called the Fast Fourier Transform, or the FFT. In this paper, we discuss about an efficient
+          way to obtain Fast Fourier Transform algorithm (FFT). According to our study, we can eliminate some
+          operations in calculating the FFT algorithm thanks to property of complex numbers and we can achieve the FFT
+          in a better execution time due to a significant reduction of N/8 of the needed twiddle
+          factors and to additional factorizations.
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
