@@ -12,7 +12,7 @@ email: amin.sahebi@unifi.it
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: www3.diism.unisi.it/~sahebi/index.html
+website: https://aminsahebi.github.io/resume/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -60,7 +60,7 @@ about_content: | # this will include new lines to allow paragraphs
         Artificial Intelligence Application.
         <br>
         <br>
-        <em>Please find my complete Curriculum Vitae (CV) here: <a href="/home/ubuntu/modern-resume-theme/data/Resume_Sep_2019.pdf" download="SAHEBI_CV.txt"><mark>Download</mark></a></em>
+        <em>Please find my complete Curriculum Vitae (CV) here: <a href="/data/Resume_Sep_2019.pdf" download="SAHEBI_CV.pdf"><mark>Download</mark></a></em>
 
 #Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
