@@ -54,7 +54,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 
 about_content: | # this will include new lines to allow paragraphs
-        I’m a PhD student, have been admitted to the <bSmart Computing Program</b> on November
+        I’m a PhD student, have been admitted to the <b>Smart Computing Program</b> on November
         2018, a joint program between three universities, Firenze, Pisa and Siena in Tuscany region.
         Currently, I’m working on <b>Reconfigurable Computing</b> and <b>High Performance Computing</b> solutions for
         Artificial Intelligence Application.
